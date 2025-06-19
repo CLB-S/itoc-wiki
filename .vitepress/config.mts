@@ -28,12 +28,12 @@ export default defineConfig({
         ],
 
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+          { icon: 'github', link: 'https://github.com/CLB-S/itoc-wiki' }
         ],
 
         // English specific labels
         editLink: {
-          pattern: 'https://github.com/your-org/itoc-wiki/edit/main/:path',
+          pattern: 'https://github.com/CLB-S/itoc-wiki/edit/main/:path',
           text: 'Edit this page on GitHub'
         },
         footer: {

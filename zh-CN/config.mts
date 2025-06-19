@@ -19,7 +19,7 @@ export const zhCNConfig = {
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/CLB-S/itoc-wiki' }
     ],
 
     // Chinese specific labels
