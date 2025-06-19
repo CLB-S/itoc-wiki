@@ -6,6 +6,8 @@ export default defineConfig({
   title: "ITOC Wiki",
   description: "The Official ITOC Wiki",
   
+  cleanUrls: true,
+
   locales: {
     root: {
       label: 'English',
