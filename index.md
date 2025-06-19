@@ -10,19 +10,13 @@ hero:
     - theme: brand
       text: Contributing
       link: /contributing/development
-    # - theme: alt
-    #   text: Markdown Examples
-    #   link: /markdown-examples
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
 
-features:
-  # - title: Feature A
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  # - title: Feature B
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  # - title: Feature C
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: 📖 Comprehensive Documentation
+#     details: Complete guides and references for ITOC development and usage
+#   - title: 🌐 Multi-language Support
+#     details: Available in English and Chinese (简体中文) with more languages coming soon
+#   - title: 🚀 Built on Godot
+#     details: Powered by custom Godot Engine with double precision and .NET support
 ---
 

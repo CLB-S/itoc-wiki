@@ -1,45 +1,67 @@
 import { defineConfig } from 'vitepress'
+import { zhCNConfig } from '../zh-CN/config.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ITOC Wiki",
   description: "The Official ITOC Wiki",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Contributing', link: '/contributing/development' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'Contributing',
-        items: [
-          { text: 'Development', link: '/contributing/development' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  },
+  
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
+      title: 'ITOC Wiki',
+      description: 'The Official ITOC Wiki',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Contributing', link: '/contributing/development' }
+        ],
+
+        sidebar: [
+          {
+            text: 'Contributing',
+            items: [
+              { text: 'Development', link: '/contributing/development' }
+            ]
+          }
+        ],
+
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+        ],
+
+        // English specific labels
+        editLink: {
+          pattern: 'https://github.com/your-org/itoc-wiki/edit/main/:path',
+          text: 'Edit this page on GitHub'
+        },
+        footer: {
+          copyright: 'Copyright © 2025 CLB Studio'
+        },
+        docFooter: {
+          prev: 'Previous page',
+          next: 'Next page'
+        },
+        outline: {
+          label: 'On this page'
+        },
+        lastUpdated: {
+          text: 'Last updated',
+          formatOptions: {
+            dateStyle: 'short',
+            timeStyle: 'medium'
+          }
+        },
+        langMenuLabel: 'Change language',
+        returnToTopLabel: 'Return to top',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Appearance',
+        lightModeSwitchTitle: 'Switch to light theme',
+        darkModeSwitchTitle: 'Switch to dark theme'
+      }
     },
-    'zh-CN': {
-      label: '简体中文',
-      lang: 'zh-CN',
-      link: '/zh-CN'
-    }
+    
+    'zh-CN': zhCNConfig
   }
 })
