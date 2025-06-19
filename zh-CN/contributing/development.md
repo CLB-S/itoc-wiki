@@ -1,13 +1,13 @@
 # 开发指南
 
-ITOC 基于自编译的 [Godot 引擎](https://godotengine.org/)开发构建，该版本提供**双精度浮点**和 **.NET** 支持。  
-采用自编译的 Godot 的主要目的是为了实现[大世界坐标](https://docs.godotengine.org/zh-cn/4.x/tutorials/physics/large_world_coordinates.html)。
+ITOC 使用自编译的 [Godot 引擎](https://godotengine.org/)进行开发和构建，以提供**双精度浮点**和 **.NET** 支持。因此，无法直接使用官方版本的 Godot 进行开发。
+采用自编译的 Godot 的主要目的是为了启用[大世界坐标](https://docs.godotengine.org/zh-cn/4.x/tutorials/physics/large_world_coordinates.html)。
 
 ## 准备 Godot 引擎
 
 ### 自行构建
 
-参考[使用 .NET 编译 — Godot Engine (4.x) 简体中文文档](https://docs.godotengine.org/zh-cn/4.x/contributing/development/compiling/compiling_with_dotnet.html)。注意还需同时启用双精度支持。
+可以参考[使用 .NET 编译 — Godot Engine (4.x) 简体中文文档](https://docs.godotengine.org/zh-cn/4.x/contributing/development/compiling/compiling_with_dotnet.html)进行编译。注意还需同时启用双精度支持。
 
 #### 配置本地 NuGet 源
 
