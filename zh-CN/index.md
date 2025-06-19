@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "ITOC Wiki"
-  text: "The Official ITOC Wiki"
-  tagline: The world, in your hands.
+  text: "官方 ITOC 百科"
+  tagline: 这个世界，由你做主。
   actions:
     - theme: brand
       text: Contributing
-      link: /contributing/development
+      link: /zh-cn/contributing/development
     # - theme: alt
     #   text: Markdown Examples
     #   link: /markdown-examples

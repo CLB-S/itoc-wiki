@@ -18,7 +18,7 @@ This step only needs to be performed once. It does not need to be repeated when 
 First, pick a location for the local NuGet source. If you don't have a preference, create an empty directory at one of these recommended locations:
 
 - On Windows, `C:\Users\<username>\MyLocalNugetSource`
-- On Linux, *BSD, etc., `~/MyLocalNugetSource`
+- On Linux, \*BSD, etc., `~/MyLocalNugetSource`
 
 This path is referred to later as `<my_local_source>`.
 After picking a directory, run this .NET CLI command to configure NuGet to use your local source:
@@ -44,6 +44,7 @@ git clone https://github.com/godotengine/godot.git
 **Windows example**
 
 `build.bat`:
+
 ```bat
 :: Enter the source directory
 cd godot
@@ -73,6 +74,7 @@ pause
 **Linux example**
 
 `build.sh`:
+
 ```sh
 #!/bin/sh
 
