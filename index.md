@@ -8,18 +8,21 @@ hero:
   tagline: This world is in your hands.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Contributing
+      link: /contributing/development
+    # - theme: alt
+    #   text: Markdown Examples
+    #   link: /markdown-examples
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: Feature A
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: Feature B
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - title: Feature C
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
