@@ -1,11 +1,15 @@
-# 开发指南
+# 准备 Godot 引擎
 
 ITOC 使用自编译的 [Godot 引擎](https://godotengine.org/)进行开发和构建，以提供**双精度浮点**和 **.NET** 支持。因此，无法直接使用官方版本的 Godot 进行开发。
 采用自编译的 Godot 的主要目的是为了启用[大世界坐标](https://docs.godotengine.org/zh-cn/4.x/tutorials/physics/large_world_coordinates.html)。
 
-## 准备 Godot 引擎
+## 获取 ITOC 预构建版本
 
-### 自行构建
+::: warning  
+待补充  
+:::
+
+## 自行构建
 
 可以参考[使用 .NET 编译 — Godot Engine (4.x) 简体中文文档](https://docs.godotengine.org/zh-cn/4.x/contributing/development/compiling/compiling_with_dotnet.html)进行编译。注意还需同时启用双精度支持。
 
@@ -97,9 +101,3 @@ scons platform=linuxbsd target=template_debug module_mono_enabled=yes precision=
 # 构建.NET程序集
 python ./modules/mono/build_scripts/build_assemblies.py --godot-output-dir=./bin --push-nupkgs-local <my_local_source> --precision=double
 ```
-
-### 获取 ITOC 预构建版本
-
-::: warning  
-待补充  
-:::
