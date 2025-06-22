@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 贡献
-      link: /zh-CN/contributing/development
+      link: /zh-cn/contributing/development
 
 # features:
 #   - title: 📖 完整文档

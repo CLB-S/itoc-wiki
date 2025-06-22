@@ -1,19 +1,19 @@
-export const zhCNConfig = {
+export const zhCnConfig = {
   label: '简体中文',
-  lang: 'zh-CN',
+  lang: 'zh-cn',
   title: 'ITOC 百科',
   description: '官方 ITOC 百科',
   themeConfig: {
     nav: [
-      { text: '首页', link: '/zh-CN/' },
-      { text: '贡献', link: '/zh-CN/contributing/development' }
+      { text: '首页', link: '/zh-cn/' },
+      { text: '贡献', link: '/zh-cn/contributing/development' }
     ],
 
     sidebar: [
       {
         text: '贡献',
         items: [
-          { text: '开发指南', link: '/zh-CN/contributing/development' }
+          { text: '开发指南', link: '/zh-cn/contributing/development' }
         ]
       }
     ],

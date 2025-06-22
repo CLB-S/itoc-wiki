@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { zhCNConfig } from '../zh-CN/config.mts'
+import { zhCnConfig } from '../zh-cn/config.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -64,6 +64,6 @@ export default defineConfig({
       }
     },
     
-    'zh-CN': zhCNConfig
+    'zh-cn': zhCnConfig
   }
 })
