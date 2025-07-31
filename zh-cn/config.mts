@@ -11,6 +11,27 @@ export const zhCnConfig = {
 
     sidebar: [
       {
+        text: '世界生成',
+        items: [
+          { text: '原版', link: '/zh-cn/content/world-generation/vanilla' },
+          { text: '纹理树', link: '/zh-cn/content/world-generation/pattern-tree' },
+        ]
+      },
+      {
+        text: '区块',
+        items: [
+          { text: 'LOD', link: '/zh-cn/content/chunks/LOD' },
+          { text: '渲染', link: '/zh-cn/content/chunks/rendering' },
+          { text: 'Multipass 生成', link: '/zh-cn/content/chunks/multipass' }
+        ]
+      },
+      {
+        text: '图形',
+        items: [
+          { text: '光照', link: '/zh-cn/content/graphics/lighting' }
+        ]
+      },
+      {
         text: '贡献',
         items: [
           { text: '开发指南', link: '/zh-cn/contributing/development' }
