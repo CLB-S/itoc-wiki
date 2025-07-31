@@ -8,9 +8,11 @@ hero:
   tagline: The world, in your hands.
   actions:
     - theme: brand
+      text: World Generation
+      link: /content/world-generation/vanilla
+    - theme: alt
       text: Contributing
       link: /contributing/development
-
 # features:
 #   - title: 📖 Comprehensive Documentation
 #     details: Complete guides and references for ITOC development and usage
@@ -19,4 +21,3 @@ hero:
 #   - title: 🚀 Built on Godot
 #     details: Powered by custom Godot Engine with double precision and .NET support
 ---
-
