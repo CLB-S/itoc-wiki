@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { zhCnConfig } from '../zh-cn/config.mts'
 
+import lightbox from "vitepress-plugin-lightbox"
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "ITOC Wiki",
@@ -86,5 +88,11 @@ export default defineConfig({
     },
     
     'zh-cn': zhCnConfig
+  },
+  markdown: {
+    config: (md) => {
+      // Use lightbox plugin
+      md.use(lightbox, {});
+    },
   }
 })
