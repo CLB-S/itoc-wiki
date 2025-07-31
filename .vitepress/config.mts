@@ -22,6 +22,27 @@ export default defineConfig({
 
         sidebar: [
           {
+            text: 'World Generation',
+            items: [
+              { text: 'Vanilla', link: '/content/world-generation/vanilla' },
+              { text: 'Pattern Tree', link: '/content/world-generation/pattern-tree' },
+            ]
+          },
+          {
+            text: 'Chunks',
+            items: [
+              { text: 'LOD', link: '/content/chunks/LOD' },
+              { text: 'Rendering', link: '/content/chunks/rendering' },
+              { text: 'Multipass Generation', link: '/content/chunks/multipass' }
+            ]
+          },
+          {
+            text: 'Graphics',
+            items: [
+              { text: 'Lighting', link: '/content/graphics/lighting' }
+            ]
+          },
+          {
             text: 'Contributing',
             items: [
               { text: 'Development', link: '/contributing/development' }
